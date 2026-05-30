@@ -263,4 +263,4 @@ Create the required folders listed in the setup section before running `main.py`
 
 ## License
 
-No license file is included in this project.
+MIT License is applicable. See LICENSE
