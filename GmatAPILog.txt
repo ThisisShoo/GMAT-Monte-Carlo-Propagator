@@ -1,0 +1,46 @@
+GMAT Build Date: Jan 10 2023 17:58:52
+
+GMAT API Log: Created Sun May  4 21:18:14 2025
+
+
+Logging to e:\Projects\MEng Project\GMAT\output\gmat_log<built-in function iter>.txt
+
+Interpreting scripts from the file.
+***** file: MCWorkspace/Scripts/2024 YR4_0.script
+Successfully set Planetary Source to use: DE405
+Successfully set Planetary Source to use: DE405
+ 15  UTCGregorian               SpacePoint     None                                  Y  N  Y  UTC Gregorian Date
+ 16  C3Energy                   Spacecraft     Origin                                Y  Y  N  C-3 Energy
+ 17  Altitude                   Spacecraft     Origin                                Y  Y  N  Altitude
+ 18  SMA                        Spacecraft     Origin                                Y  Y  Y  Orbit Semi-Major Axis
+ 19  ECC                        Spacecraft     Origin                                Y  Y  Y  Eccentricity
+ 20  INC                        Spacecraft     CoordinateSystem                      Y  Y  Y  Orbit Inclination
+ 21  RAAN                       Spacecraft     CoordinateSystem                      Y  Y  Y  RA of Asscending Node
+ 22  AOP                        Spacecraft     CoordinateSystem                      Y  Y  Y  Argument of Periapsis
+ 23  TA                         Spacecraft     Origin                                Y  Y  Y  True Anomaly
+ 24  ElapsedSecs                Spacecraft     None                                  Y  Y  N  Elapsed Seconds
+1: MCWorkspace/Scripts/2024 YR4_0.script: **** ERROR **** Interpreter Exception: 
+   Possible missing objects referenced:
+      "Propagate DefaultProp(Sc_Name) {Ast2024YR4.ElapsedSecs = 2524608000.0, Ast2024YR4.Earth.Altitude = 100};" references missing object(s):  Sc_Name
+
+
+========================================
+Running mission...
+Successfully set Planetary Source to use: DE405
+Successfully set Planetary Source to use: DE405
+Kernel e:/Projects/MEng Project/GMAT/data/planetary_ephem/spk/DE405AllPlanets.bsp has been loaded.
+Kernel e:\Projects\MEng Project\GMAT\data\planetary_coeff\SPICEPlanetaryConstantsKernel.tpc has been loaded.
+Kernel e:\Projects\MEng Project\GMAT\data\time\SPICELeapSecondKernel.tls has been loaded.
+Kernel e:\Projects\MEng Project\GMAT\data\planetary_coeff\SPICEEarthPredictedKernel.bpc has been loaded.
+Kernel e:\Projects\MEng Project\GMAT\data\planetary_coeff\SPICEEarthCurrentKernel.bpc has been loaded.
+Kernel e:\Projects\MEng Project\GMAT\data\planetary_coeff\earth_latest_high_prec.bpc has been loaded.
+Kernel e:\Projects\MEng Project\GMAT\data\planetary_coeff\SPICELunaCurrentKernel.bpc has been loaded.
+Kernel e:\Projects\MEng Project\GMAT\data\planetary_coeff\SPICELunaFrameKernel.tf has been loaded.
+Command Exception: Unknown SpaceObject property "Sc_Name"
+**** ERROR **** Sandbox Exception: Errors were found in the mission control sequence; please correct the errors listed in the message window
+
+
+ *** Mission run failed.
+===> Total Run Time: 0.020 seconds
+
+========================================
